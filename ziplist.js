@@ -12,4 +12,10 @@ function zipList(array1, array2) {
 }
 console.log(zipList(myArray, myArray2));
 
-// 18 minutes pog champ
+function zipListTheSimpleWay(array1, array2) {
+  return _.flatten(_.zip(array1, array2));
+  // flatten function reduces the arrays, whilst zip alternates the arrays
+}
+console.log(zipListTheSimpleWay(myArray, myArray2));
+
+// 22 minutes pog champ
