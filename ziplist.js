@@ -18,4 +18,4 @@ function zipListTheSimpleWay(array1, array2) {
 }
 console.log(zipListTheSimpleWay(myArray, myArray2));
 
-// 22 minutes pog champ
+// 24 minutes pog champ
